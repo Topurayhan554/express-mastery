@@ -1,0 +1,9 @@
+import { initDB } from "./../../db/index";
+export interface IUser {
+  name: string;
+  email: string;
+  password: string;
+  age: number;
+  is_active?: boolean;
+  id: string;
+}
