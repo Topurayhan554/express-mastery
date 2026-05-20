@@ -6,4 +6,5 @@ export interface IUser {
   age: number;
   is_active?: boolean;
   id: string;
+  role?: string; //admin, agent, user
 }
